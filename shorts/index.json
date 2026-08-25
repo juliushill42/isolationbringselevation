@@ -1,0 +1,53 @@
+{
+  "version": "1.0.0",
+  "site": "https://iam.movingwithclarity.com",
+  "generated_at": "2026-08-25T01:54:44Z",
+  "count": 3,
+  "shorts": [
+    {
+      "id": "SHORT-00001",
+      "title": "They told me AI belonged in the cloud.",
+      "hook": "They told me AI belonged in the cloud.",
+      "format": "SPOKEN_WORD",
+      "source": "IBE-002",
+      "story_dna_id": "DNA-00002",
+      "cta": "This is one chapter of Isolation Brings Elevation. The rest of the story is waiting.",
+      "video": "shorts/SHORT-00001-21ed65cddbc2-8c723abe/video.mp4",
+      "thumbnail": "shorts/SHORT-00001-21ed65cddbc2-8c723abe/thumbnail.jpg",
+      "release_dir": "SHORT-00001-21ed65cddbc2-8c723abe",
+      "sealed": true,
+      "url": "https://iam.movingwithclarity.com/shorts/SHORT-00001-21ed65cddbc2-8c723abe/video.mp4",
+      "thumbnail_url": "https://iam.movingwithclarity.com/shorts/SHORT-00001-21ed65cddbc2-8c723abe/thumbnail.jpg"
+    },
+    {
+      "id": "SHORT-00002",
+      "title": "There was a moment when the silence became a teacher.",
+      "hook": "There was a moment when the silence became a teacher.",
+      "format": "SPOKEN_WORD",
+      "source": "IBE-003",
+      "story_dna_id": "DNA-00003",
+      "cta": "This is one chapter of Isolation Brings Elevation. The rest of the story is waiting.",
+      "video": "shorts/SHORT-00002-ab81c253cbcf-8c723abe/video.mp4",
+      "thumbnail": "shorts/SHORT-00002-ab81c253cbcf-8c723abe/thumbnail.jpg",
+      "release_dir": "SHORT-00002-ab81c253cbcf-8c723abe",
+      "sealed": true,
+      "url": "https://iam.movingwithclarity.com/shorts/SHORT-00002-ab81c253cbcf-8c723abe/video.mp4",
+      "thumbnail_url": "https://iam.movingwithclarity.com/shorts/SHORT-00002-ab81c253cbcf-8c723abe/thumbnail.jpg"
+    },
+    {
+      "id": "SHORT-00003",
+      "title": "Chapter 2",
+      "hook": "They told me AI belonged in the cloud.",
+      "format": "SPOKEN_WORD",
+      "source": "IBE-002",
+      "story_dna_id": "DNA-00002",
+      "cta": "This is one chapter of Isolation Brings Elevation. The rest of the story is waiting.",
+      "video": "shorts/SHORT-00003-398056f6f3af-8c723abe/video.mp4",
+      "thumbnail": "shorts/SHORT-00003-398056f6f3af-8c723abe/thumbnail.jpg",
+      "release_dir": "SHORT-00003-398056f6f3af-8c723abe",
+      "sealed": true,
+      "url": "https://iam.movingwithclarity.com/shorts/SHORT-00003-398056f6f3af-8c723abe/video.mp4",
+      "thumbnail_url": "https://iam.movingwithclarity.com/shorts/SHORT-00003-398056f6f3af-8c723abe/thumbnail.jpg"
+    }
+  ]
+}
