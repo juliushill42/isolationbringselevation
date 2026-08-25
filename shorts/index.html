@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Shorts — Isolation Brings Elevation</title>
+<style>
+  body{margin:0;background:#05080a;color:#f2f0e6;font-family:system-ui,sans-serif}
+  header{padding:24px;font-family:monospace;color:#3dff7a;letter-spacing:.12em;font-size:12px}
+  main{max-width:480px;margin:0 auto;padding:16px}
+  article{margin-bottom:48px}
+  video{width:100%;border-radius:8px;background:#000}
+  h2{font-size:1.1rem;margin:12px 0 4px}
+  p{opacity:.75;font-size:.95rem}
+  a{color:#3dff7a}
+</style>
+</head>
+<body>
+<header>IAM.MOVINGWITHCLARITY.COM / SHORTS</header>
+<main id="feed"></main>
+<script>
+fetch('index.json').then(r=>r.json()).then(data=>{
+  const root=document.getElementById('feed');
+  (data.shorts||[]).forEach(s=>{
+    const el=document.createElement('article');
+    el.innerHTML=`<video controls playsinline poster="${s.thumbnail||''}" src="${s.video}"></video>
+      <h2>${s.title||s.id}</h2>
+      <p>${s.hook||''}</p>
+      <p><a href="/">← Living book</a></p>`;
+    root.appendChild(el);
+  });
+});
+</script>
+</body>
+</html>
